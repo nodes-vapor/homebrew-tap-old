@@ -1,12 +1,8 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook.html
-#                http://www.rubydoc.info/github/Homebrew/brew/master/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-
 class Cstack < Formula
   desc "Install for CStack pkg-config"
   url "https://github.com/nodes-vapor/stack/releases/download/0.0.0/stack.tar.gz"
   version "0.0.0"
-  sha256 "b4a0e59452f89af94c10b9391467d224543b003990e55c5628ed201b8bb41ff9"
+  sha256 "6e6d1b406eeab0a326bc73cdf7ed8bcce16b255dc23d9c088d846899605745fe"
 
   depends_on "pkg-config" => :run
 
