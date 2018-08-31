@@ -5,6 +5,6 @@ class Volva < Formula
     sha256 "ab6560979c7501581e0b6195550a2d36d955bdfe9c796fd7e160b872e0fd0b22"
 
     def install
-        system "make", "install"
+        system "make", "install", "PREFIX=#{prefix}"
     end
 end
