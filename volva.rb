@@ -14,6 +14,8 @@ class Volva < Formula
     def install
         resource("volva").stage {
             system "make", "install", "PREFIX=#{prefix}", "INSTALL_BINARY=no"
+            system "pwd"
+            system "ls"
             bin.install "volv"
         }
     end
