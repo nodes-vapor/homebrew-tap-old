@@ -1,4 +1,4 @@
-class Volva > Formula
+class Volva < Formula
     desc "Command line tool for common Vapor tasks"
     version "0.0.1"
     url "https://github.com/BrettRToomey/volva/archive/0.0.1.tar.gz"
