@@ -1,9 +1,9 @@
 class Volva < Formula
     desc "Command line tool for common Vapor tasks"
-    version "0.0.3"
+    version "0.0.4"
 
     url "https://github.com/BrettRToomey/volva/archive/#{version}.tar.gz"
-    sha256 "606358cc71ad563a6205aecd81b31d9f2b540423f58b6fabf8d9dbb06e7fa4e9"
+    sha256 "3b515e34d3d72a9bea071195d87f69ce58cd6139ec7d85b9be6c2c9eb3c4493d"
 
     def install
         system "make"
