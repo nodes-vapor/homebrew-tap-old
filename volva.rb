@@ -3,7 +3,7 @@ class Volva < Formula
     version "0.0.5"
 
     url "https://github.com/BrettRToomey/volva/archive/#{version}.tar.gz"
-    sha256 "c9fce0e2293911e4dc86723ca3d42a282aaa9fd4bb84f40b405f2fe9f13d3290"
+    sha256 "320976d485c765c0f72d3530c7ca726fae055888f23a3c1736f329777751c118"
 
     def install
         system "make"
